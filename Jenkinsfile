@@ -1,5 +1,5 @@
 node {
-    stage 'Clone the project'
+    stage 'Clone the project test'
     git 'https://github.com/stericardo/microservice.git'
 
         stage("Compilation and Analysis") {
