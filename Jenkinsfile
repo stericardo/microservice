@@ -1,5 +1,5 @@
 node {
-    stage 'SCM Checkout'
+    stage 'Clone the project'
     git 'https://github.com/stericardo/microservice.git'
 
         stage("Compilation and Analysis") {
